@@ -76,7 +76,7 @@
     .header-description {
         font-size: 4.8rem;
         text-align: center;
-        top: 50%;
+        top: 45%;
         transform: translate(-50%);
     }
 }
