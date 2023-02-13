@@ -1,0 +1,35 @@
+.about-section {
+    margin-bottom: 9.4rem;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2.4rem;
+    place-items: center;
+}
+
+@media (max-width: 925px) {
+    .about-content {
+        display: flex;
+        gap: 3.2rem;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+.about-content img {
+    width: 25rem;
+    object-fit: contain;
+}
+
+.about-header {
+    font-size: 4.2rem;
+    font-weight: 600;
+    margin-bottom: 3.2rem;
+}
+
+.about-description {
+    font-size: 2rem;
+}

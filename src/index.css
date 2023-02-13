@@ -1,0 +1,78 @@
+/********** CSS RESET **********/
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #ffffff;
+}
+
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+
+
+/********** UTILITIES **********/
+
+.header-container {
+    background-color: #000000;
+    height: 100vh;
+    padding: 0 5.4rem;
+    position: relative;
+}
+
+.main-container,
+.footer-container {
+    width: min(130rem, 95%);
+    margin: 0 auto;
+}
+
+.main-container {
+    padding: 2.4rem;
+}
+
+.footer-container {
+    padding: 2.4rem 2.4rem 1.2rem 2.4rem;
+    border-top: 1px solid aquamarine;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+@media (max-width: 750px) {
+    .header-container {
+        padding: 0 1.8rem;
+    }
+}
+
+
+@media (max-width: 35rem) {
+    .header-container {
+        padding: 0 1.2rem;
+    }
+}
