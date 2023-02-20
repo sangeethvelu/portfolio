@@ -11,6 +11,8 @@ function Projects() {
             src="/assets/img/quizzical.jpg"
             alt="Image of Quizzical app"
             className={styles["project-img"]}
+            width="396"
+            height="264"
           />
           <p className={styles["project-title"]}>Quizzical</p>
           <p className={styles["project-description"]}>
@@ -32,6 +34,8 @@ function Projects() {
             src="/assets/img/cinemawiki.jpg"
             alt="Image of Quizzical app"
             className={styles["project-img"]}
+            width="396"
+            height="264"
           />
           <p className={styles["project-title"]}>Cinema Wiki</p>
           <p className={styles["project-description"]}>
@@ -53,6 +57,8 @@ function Projects() {
             src="/assets/img/ipaddresstracker.jpg"
             alt="Image of Quizzical app"
             className={styles["project-img"]}
+            width="396"
+            height="264"
           />
           <p className={styles["project-title"]}>IP Address Tracker</p>
           <p className={styles["project-description"]}>

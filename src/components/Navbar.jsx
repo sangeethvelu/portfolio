@@ -25,6 +25,8 @@ function Navbar() {
             src="/assets/img/sangeeth.jpg"
             className={styles["nav-img"]}
             alt="Image of Sangeeth"
+            width="50"
+            height="45"
           />
           <p className={styles["nav-name"]}>Sangeeth Velusamy</p>
         </div>
