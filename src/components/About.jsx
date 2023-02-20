@@ -6,7 +6,7 @@ export default function About() {
     <section className={styles["about-section"]} id="about">
       <h2 className={styles["about-header"]}>About</h2>
       <div className={styles["about-content"]}>
-        <img src="/assets/img/3d-boy.svg" alt="Image of a boy" />
+        <img src="/assets/img/about.svg" alt="Image of a boy" />
         <p className={styles["about-description"]}>
           "A highly motivated and results-driven Front-End Developer striving to
           create and implement user-friendly, visually appealing responsive
