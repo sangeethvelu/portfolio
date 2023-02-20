@@ -29,29 +29,26 @@ function Projects() {
         </div>
         <div className={styles["project-card"]}>
           <img
-            src="/assets/img/cinemawiki.jpg"
-            alt="Image of Quizzical app"
+            src="/assets/img/portfolio.png"
+            alt="Image of Portfolio Website"
             className={styles["project-img"]}
           />
-          <p className={styles["project-title"]}>Cinema Wiki</p>
+          <p className={styles["project-title"]}>Portfolio</p>
           <p className={styles["project-description"]}>
-            This website provides detailed information on thousands of films
-            where users can search for movies by title, director, genre, and
-            release date
+            This is a portfolio website to showcase my Front-End skills. It has
+            a performance score of 99 from Lighthouse and Page Speed Insights.
           </p>
           <div className={styles["btn-container"]}>
-            <a href="https://www.github.com" target="_blank">
+            <a href="https://github.com/sangeethvelu/portfolio" target="_blank">
               GitHub
             </a>
-            <a href="https://www.github.com" target="_blank">
-              Website
-            </a>
+            <a href="#">Website</a>
           </div>
         </div>
         <div className={styles["project-card"]}>
           <img
             src="/assets/img/ipaddresstracker.jpg"
-            alt="Image of Quizzical app"
+            alt="Image of IP Address app"
             className={styles["project-img"]}
           />
           <p className={styles["project-title"]}>IP Address Tracker</p>
