@@ -38,6 +38,8 @@
 }
 
 .project-img {
+    width: 100%;
+    aspect-ratio: 3/2;
     border-top-left-radius: 0.8rem;
     border-top-right-radius: 0.8rem;
 }
